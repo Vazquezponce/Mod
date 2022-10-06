@@ -1,0 +1,16 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT"
+
+[[mods]]
+modId="fullupgraded119minecraftmod"
+version="1.19.2"
+displayName="FullUpgraded119Minecraftmod"
+#updateJSONURL="https://change.me.example.invalid/updates.json"
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+logoFile="fullupgraded119minecraftmod.png"
+credits="Me"
+authors="Vazquezponce"
+description='''
+A 1.19 forge mod, backpacks, mobs, structures, etc
+'''

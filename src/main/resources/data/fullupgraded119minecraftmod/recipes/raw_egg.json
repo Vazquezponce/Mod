@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "minecraft:egg"
+    },
+    "result": {  "item": "fullupgraded119minecraftmod:raw_egg",
+        "count": 1},
+    "experience": 0.1,
+    "cookingtime": 100
+}

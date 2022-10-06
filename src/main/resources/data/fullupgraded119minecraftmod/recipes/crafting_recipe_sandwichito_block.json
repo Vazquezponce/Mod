@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SBS",
+        "BBB",
+        "SSS"
+    ],
+    "key": {
+        "B": {
+            "item": "fullupgraded119minecraftmod:sandwichito"
+        },
+        "S": {
+            "item": "minecraft:oak_slab"
+        }
+    },
+    "result": {
+        "item": "fullupgraded119minecraftmod:sandwichito1_block",
+        "count": 1
+    }
+}

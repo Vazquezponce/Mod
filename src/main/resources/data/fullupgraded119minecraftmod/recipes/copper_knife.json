@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {"item": "fullupgraded119minecraftmod:copper_knife",
+    "count": 1}
+}
