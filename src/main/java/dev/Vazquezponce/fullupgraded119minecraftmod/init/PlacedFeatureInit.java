@@ -24,7 +24,7 @@ public class PlacedFeatureInit {
 
     public static final RegistryObject<PlacedFeature> TITANIUM_ORE = PLACED_FEATURES.register("titanium_ore",
             () -> new PlacedFeature(ConfiguredFeatureInit.titanium_ore.getHolder().get(),
-                    commonOrePlacement(50, HeightRangePlacement.uniform(
+                    commonOrePlacement(3, HeightRangePlacement.uniform(
                             VerticalAnchor.bottom(),
                             VerticalAnchor.belowTop(0)
                     ))));

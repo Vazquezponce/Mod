@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "CCC",
+        "BBB"
+    ],
+    "key": {
+        "#": {
+            "item": "fullupgraded119minecraftmod:raw_egg"
+        },
+        "C": {
+            "item": "minecraft:cooked_beef"
+        },
+        "B": {
+            "item": "fullupgraded119minecraftmod:toast"
+        }
+    },
+    "result": { "item": "fullupgraded119minecraftmod:milanese",
+        "count": 3}
+}

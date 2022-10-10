@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#S#",
+        "BBB"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:sugar"
+        },
+        "S": {
+            "item": "minecraft:sugar_cane"
+        },
+        "B": {
+            "item": "fullupgraded119minecraftmod:toast"
+        }
+    },
+    "result": { "item": "fullupgraded119minecraftmod:sugar_toast",
+        "count": 3}
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "forge:item/bucket",
+  "loader": "forge:bucket",
+  "textures": {
+    "base": "item/bucket",
+    "fluid": "fullupgraded119minecraftmod:items/drip_bucket"
+  },
+  "fluid": "fullupgraded119minecraftmod:petroleum"
+
+}

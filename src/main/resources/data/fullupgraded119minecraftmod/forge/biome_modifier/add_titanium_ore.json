@@ -1,0 +1,7 @@
+
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_end",
+  "features": "fullupgraded119minecraftmod:titanium_ore",
+  "step":"underground_ores"
+}

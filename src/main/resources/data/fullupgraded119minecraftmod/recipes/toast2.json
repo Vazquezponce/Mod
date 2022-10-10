@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+        "item": "minecraft:bread"
+    },
+    "result": {  "item": "fullupgraded119minecraftmod:toast",
+        "count": 6},
+    "experience": 0.3,
+    "cookingtime": 1000
+}

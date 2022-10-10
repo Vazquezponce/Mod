@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "fullupgraded119minecraftmod:raw_rubi",
+  "step":"underground_ores"
+}

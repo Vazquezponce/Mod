@@ -33,11 +33,29 @@ public class ItemInit {
                     .food(new FoodProperties.Builder().nutrition(2).fast().meat().build())));
 
 
+    public static final RegistryObject<Item> TOAST = ITEMS.register(
+            "toast", () -> new Item(new Item.Properties()
+                    .tab(CreativeModeTab.TAB_FOOD)
+                    .food(new FoodProperties.Builder().nutrition(3).fast().meat().build())));
+
+    public static final RegistryObject<Item> SUGAR_TOAST = ITEMS.register(
+            "sugar_toast", () -> new Item(new Item.Properties()
+                    .tab(CreativeModeTab.TAB_FOOD)
+                    .food(new FoodProperties.Builder().nutrition(4).fast().meat().build())));
+
+    public static final RegistryObject<Item> MILANESE = ITEMS.register(
+            "milanese", () -> new Item(new Item.Properties()
+                    .tab(CreativeModeTab.TAB_FOOD)
+                    .food(new FoodProperties.Builder().nutrition(16).alwaysEat().build())));
 
 
 
 
-   //herramientas
+
+
+
+
+    //herramientas
 
     public static final RegistryObject<SwordItem> OBSIDIAN_SWORD = ITEMS.register("obsidian_sword",
             () -> new SwordItem(Tiers.EXAMPLE, 8, 3.5f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
@@ -104,6 +122,11 @@ public static final RegistryObject<ArmorItem> OBSIDIAN_HELMET = ITEMS.register("
                 0.0f,
                 0.4f,
                 () -> Ingredient.of(ItemInit.OBSIDIAN_CHESTPLATE.get()));
+
+
+
+
+
 
 
     }

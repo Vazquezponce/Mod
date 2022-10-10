@@ -1,9 +1,6 @@
 package dev.Vazquezponce.fullupgraded119minecraftmod;
 
-import dev.Vazquezponce.fullupgraded119minecraftmod.init.BlockInit;
-import dev.Vazquezponce.fullupgraded119minecraftmod.init.ConfiguredFeatureInit;
-import dev.Vazquezponce.fullupgraded119minecraftmod.init.ItemInit;
-import dev.Vazquezponce.fullupgraded119minecraftmod.init.PlacedFeatureInit;
+import dev.Vazquezponce.fullupgraded119minecraftmod.init.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -22,6 +19,8 @@ public class FullUpgraded119Minecraftmod {
         ItemInit.ITEMS.register(bus);
         ConfiguredFeatureInit.CONFIGURED_FEATURES.register(bus);
         PlacedFeatureInit.PLACED_FEATURES.register(bus);
+        FluidInit.FLUID_TYPES.register(bus);
+        FluidInit.FLUIDS.register(bus);
     }
 }
 
